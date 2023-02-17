@@ -2,12 +2,17 @@ Hi there, I'm Bobby! I'm a 26 year old currently transitioning my career into th
 
 # Project Description
 The purpose of my case study project is to demonstrate my skills and knowledge as a data analyst. I'll be working on a real-world problem and using data to provide insights and recommendations to help solve the problem.
+# Cyclists (IN PROGRESS)
+# Health App (NOT STARTED)
 
 # Dataset
-The dataset I'll be using is from XYZ Company, a fictional company that sells a variety of products online. The dataset includes information about customer demographics, product categories, sales data, and more.
-
+The CURRET datasets I'll be using Is from the Google Data Analytics Professional Certificate course.
 # Tools and Techniques
 I'll be using a variety of tools and techniques to analyze the data, including:
+
+
+R 
+SQL
 
 
 # My goals for this project are:
@@ -18,9 +23,6 @@ To provide insights and recommendations that can help solve the problem.
 Deliverables
 The deliverables for this project will include:
 
-R
-SQL
-Google Sheets
 
 I plan to complete this project over the course of four weeks, starting on March 1st, 2023 and ending on March 31st, 2023.
 
