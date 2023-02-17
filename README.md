@@ -1,25 +1,29 @@
-# Cyclists_2023
-Loaded ALL 12 CSV files into R (Last 12 months)
-Merged them all in R and got merged_data now the analyzing part is fun for visulizations
+Hi there, I'm Bobby! I'm a 26 year old currently transitioning my career into the tech industry by taking a data analyst course. This is the README file for my case study project.
 
-# Coding Part
+# Project Description
+The purpose of my case study project is to demonstrate my skills and knowledge as a data analyst. I'll be working on a real-world problem and using data to provide insights and recommendations to help solve the problem.
 
-library(ggplot2)
+# Dataset
+The dataset I'll be using is from XYZ Company, a fictional company that sells a variety of products online. The dataset includes information about customer demographics, product categories, sales data, and more.
 
-clean_data <- merged_data[!is.na(merged_data$ride_length), ]
+# Tools and Techniques
+I'll be using a variety of tools and techniques to analyze the data, including:
 
-quickest_ride <- min(clean_data$ride_length)
-slowest_ride <- max(clean_data$ride_length)
 
-# Create a data frame to store the ride length and label information
-ride_lengths <- data.frame(length = c(quickest_ride, slowest_ride),
-                           label = c("Quickest Ride", "Slowest Ride"))
+# My goals for this project are:
 
-# Create a pie chart
-ggplot(ride_lengths, aes(x = "", y = length, fill = label)) +
-  geom_bar(stat = "identity", width = 1) +
-  coord_polar("y", start=0) +
-  theme_void() +
-  labs(title = "Quickest and Slowest Ride Lengths")
-  
- 
+To gain practical experience working with real-world data.
+To showcase my skills and knowledge as a data analyst.
+To provide insights and recommendations that can help solve the problem.
+Deliverables
+The deliverables for this project will include:
+
+R
+SQL
+Google Sheets
+
+I plan to complete this project over the course of four weeks, starting on March 1st, 2023 and ending on March 31st, 2023.
+
+
+
+Thanks for taking the time to read this README file!
