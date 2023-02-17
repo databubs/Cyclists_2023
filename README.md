@@ -7,12 +7,9 @@ The purpose of my case study project is to demonstrate my skills and knowledge a
 
 # Dataset
 The CURRET datasets I'll be using Is from the Google Data Analytics Professional Certificate course.
-# Tools and Techniques
+# Coding and Techniques
 I'll be using a variety of tools and techniques to analyze the data, including:
-
-
-R 
-SQL
+R Desktop, and SQL so far! Hoping to learn python.
 
 
 # My goals for this project are:
