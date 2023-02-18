@@ -1,22 +1,37 @@
-Hi there, I'm Bobby! I'm a 26 year old currently transitioning my career into the tech industry by taking a data analyst course. This is the README file for my case study project.
+# Cyclistic Bike-Share Analysis
+# Overview
+This project analyzes the bike-share data from Cyclistic, a fictional bike-share company in Chicago. The goal of the analysis is to better understand how Cyclistic's customers are using the bikes and identify trends and patterns in their behavior.
 
-# Project Description
-The purpose of my case study project is to demonstrate my skills and knowledge as a data analyst. I'll be working on a real-world problem and using data to provide insights and recommendations to help solve the problem.
-# Cyclists (IN PROGRESS)
-# Health App (NOT STARTED)
+# Data
+The data used for this analysis was provided by Cyclistic and consists of trip records from 2020. The data was preprocessed to remove any missing values and ensure consistency in formatting.
 
-# Dataset
-The CURRET datasets I'll be using Is from the Google Data Analytics Professional Certificate course.
-# Coding and Techniques
-I'll be using a variety of tools and techniques to analyze the data, including:
-R Desktop, and SQL so far! Hoping to learn python along the way
+# Analysis
+The analysis was conducted in R and includes data cleaning, exploration, and visualization. The following questions were addressed in the analysis:
 
+# Who are Cyclistic's main users?
+How do the customers' behavior differ between casual and members?
+How do the usage patterns differ by time of day, day of the week, and month?
+What are the most popular routes and destinations for Cyclistic's customers?
+Results
+The analysis revealed several insights about Cyclistic's customers:
 
-# My goals for this project are:
+The majority of customers are members rather than casual riders.
+Members tend to use the bikes more frequently and for shorter periods of time than casual riders.
+Bike usage varies by time of day, with peak usage in the morning and evening rush hours.
+Bike usage also varies by day of the week, with higher usage on weekdays than on weekends.
+The most popular routes and destinations are located in the city center and near tourist attractions.
+Conclusion
+The results of the analysis provide valuable insights for Cyclistic's business strategy. For example, they can use the information about their main users to target marketing efforts more effectively, or adjust pricing and incentives to encourage more casual riders to become members. The insights about usage patterns can also inform decisions about bike placement and maintenance.
 
-To gain practical experience working with real-world data.
-To showcase my skills and knowledge as a data analyst.
-To provide insights and recommendations that can help solve the problem.
+Files
+cyclistic_analysis.Rmd: R Markdown file containing the code and analysis.
+cyclistic_analysis.html: HTML file containing the knitted R Markdown report.
+data/2020_cyclistic_tripdata.csv: Raw data used for the analysis.
+data/cyclistic_cleaned_data.csv: Cleaned data used for the analysis.
+Dependencies
+The analysis was conducted using R version 4.1.0 and the following R packages:
 
-
-Thanks for taking the time to read this README file!
+tidyverse
+lubridate
+ggplot2
+To reproduce the analysis, ensure that these packages are installed on your machine.
