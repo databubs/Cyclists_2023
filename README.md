@@ -47,15 +47,3 @@ tidyverse
 lubridate
 ggplot2
 
-# Guiding questions
-● Were you able to answer the question of how annual members and casual riders use Cyclistic bikes differently?
-
-● What story does your data tell?
-
-● How do your findings relate to your original question?
-
-● Who is your audience? What is the best way to communicate with them?
-
-● Can data visualization help you share your findings?
-
-● Is your presentation accessible to your audience?
