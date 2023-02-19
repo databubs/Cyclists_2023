@@ -10,9 +10,12 @@ The analysis was conducted in R and includes data cleaning, exploration, and vis
 
 # Who are Cyclistic's main users?
 How do the customers' behavior differ between casual and members?
+
 How do the usage patterns differ by time of day, day of the week, and month?
+
 What are the most popular routes and destinations for Cyclistic's customers?
-Results
+
+# Results
 The analysis revealed several insights about Cyclistic's customers:
 
 The majority of customers are members rather than casual riders.
