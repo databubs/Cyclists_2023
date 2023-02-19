@@ -23,12 +23,15 @@ The most popular routes and destinations are located in the city center and near
 Conclusion
 The results of the analysis provide valuable insights for Cyclistic's business strategy. For example, they can use the information about their main users to target marketing efforts more effectively, or adjust pricing and incentives to encourage more casual riders to become members. The insights about usage patterns can also inform decisions about bike placement and maintenance.
 
-Files
+# Files
 cyclistic_analysis.Rmd: R Markdown file containing the code and analysis.
 cyclistic_analysis.html: HTML file containing the knitted R Markdown report.
 data/2020_cyclistic_tripdata.csv: Raw data used for the analysis.
 data/cyclistic_cleaned_data.csv: Cleaned data used for the analysis.
 Dependencies
+
+
+# Packages 
 The analysis was conducted using R version 4.1.0 and the following R packages:
 
 tidyverse
