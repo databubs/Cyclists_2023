@@ -24,7 +24,8 @@ What are the most popular routes and destinations for Cyclistic's customers?
 
 
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png)
-![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Cyclists_Members.png?raw=true
+
+![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Cyclists_Members.png?raw=true)
 
 # Results
 The analysis revealed several insights about Cyclistic's customers:
