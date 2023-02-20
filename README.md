@@ -7,21 +7,17 @@ This project analyzes the bike-share data from Cyclistic, a fictional bike-share
 # Data
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling blank values to 0. Removed duplicates, and formatting 
 
-# Analysis
+# Analysis S
 The analysis was conducted in R and includes data cleaning, exploration, and visualization. The following questions were addressed in the analysis:
-How many riders are there?
 
-How many are casuals compared to annual riders
 
-# Who are Cyclistic's main users?
-How do the customers' behavior differ between casual and members?
-
-How do the usage patterns differ by time of day, day of the week, and month?
-![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
+How many are casuals compared to annual riders?
 
 What are the most popular routes and destinations for Cyclistic's customers?
 
 
+How do the usage patterns differ by time of day, day of the week, and month?
+![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
 
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png)
 
