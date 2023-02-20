@@ -17,10 +17,14 @@ How many are casuals compared to annual riders
 How do the customers' behavior differ between casual and members?
 
 How do the usage patterns differ by time of day, day of the week, and month?
+![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
 
 What are the most popular routes and destinations for Cyclistic's customers?
 
+
+
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png)
+![alt text(https://github.com/databubs/Cyclists_2023/blob/main/Cyclists_Members.png?raw=true
 
 # Results
 The analysis revealed several insights about Cyclistic's customers:
