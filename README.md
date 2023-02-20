@@ -20,6 +20,8 @@ How do the usage patterns differ by time of day, day of the week, and month?
 
 What are the most popular routes and destinations for Cyclistic's customers?
 
+https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png
+
 # Results
 The analysis revealed several insights about Cyclistic's customers:
 
