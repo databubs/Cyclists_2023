@@ -7,7 +7,7 @@ This project analyzes the bike-share data from Cyclistic, a fictional bike-share
 # Data
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling blank values to 0. Removed duplicates, and reformatting 
 
-# Analysis Steps
+# Analysis
 
 The analysis was conducted in R and includes data cleaning, exploration, and visualization. The following questions were addressed in the analysis:
 
@@ -22,7 +22,7 @@ Lily Moreno
 The director of marketing and your manager. Moreno is responsible for the development of campaigns
 and initiatives to promote the bike-share program. These may include email, social media, and other channels.
 
-
+# My Visualization
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
 
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png)
