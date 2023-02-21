@@ -5,18 +5,24 @@ Hey! My names Bobby and Im currently enrolled in the last chapter on Coursera fo
 This project analyzes the bike-share data from Cyclistic, a fictional bike-share company in Chicago. The goal of the analysis is to better understand how Cyclistic's customers are using the bikes and identify trends and patterns in their behavior.
 
 # Data
-The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling blank values to 0. Removed duplicates, and formatting 
+The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling blank values to 0. Removed duplicates, and reformatting 
 
-# Analysis S
+# Analysis Steps
+
 The analysis was conducted in R and includes data cleaning, exploration, and visualization. The following questions were addressed in the analysis:
-
 
 How many are casuals compared to annual riders?
 
 What are the most popular routes and destinations for Cyclistic's customers?
 
-
 How do the usage patterns differ by time of day, day of the week, and month?
+
+# Who Are the Stakeholders?
+Lily Moreno
+The director of marketing and your manager. Moreno is responsible for the development of campaigns
+and initiatives to promote the bike-share program. These may include email, social media, and other channels.
+
+
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
 
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png)
