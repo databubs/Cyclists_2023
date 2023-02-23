@@ -2,10 +2,12 @@
 Hey! My names Bobby and Im currently enrolled in the last chapter on Coursera for "Google Data Analytics Professional Certificate", This is the start of my porfolio for my case studies! You can contact me at "CHIENG@LIVE.CA for any questions"
 
 # Cyclistic Bike-Share Analysis
-This project analyzes the bike-share data from Cyclistic, a fictional bike-share company in Chicago. The goal of the analysis is to better understand how Cyclistic's customers are using the bikes and identify trends and patterns in their behavior.
+This project analyzes the bike-share data from Cyclistic, a fictional bike-share company in Chicago. The goal of the analysis is to better understand how Cyclistic's customers are using the bikes and identify trends and patterns in their behavior within bikes, distance, and which type of bike they may be using.
 
 # Data
-The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling blank values to 0. Removed duplicates, and reformatting;alining.
+The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining.
+
+(https://divvy-tripdata.s3.amazonaws.com/index.html) 
 
 # Analysis
 
