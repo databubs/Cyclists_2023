@@ -7,7 +7,7 @@ This project analyzes the bike-share data from Cyclistic, a fictional bike-share
 # Data
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining.
 
-[Click Here](https://divvy-tripdata.s3.amazonaws.com/index.html)
+[Click Here to download the previous 12 months](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 # Analysis
 
