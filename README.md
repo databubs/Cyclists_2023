@@ -12,9 +12,16 @@ The data used for this analysis was provided by Cyclistic and consists of trip r
 # Cleaning Data
 To sum up my results, I have found that: There are lots of errors so I decided to load the dataset into R studio for further cleaning.
 
-1. rider_id 
-This row corresponds to each rider based on their ID which also means this is the primary key. It contains exactly 16 characters,
+1. rider_id ✔️ 
+This row corresponds to each rider based on their ID which also means this is the primary key. It contains exactly 16 characters no nulls or missing values could be found.
 
+
+
+
+2.rideable_type: 
+the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. Thus, we must change any occurrence of ‘docked bike’ to ‘classic bike’.
+
+3.
 # Analysis
 
 The analysis was conducted in R and includes data cleaning, exploration, and visualization. The following questions were addressed in the analysis:
