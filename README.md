@@ -5,9 +5,15 @@ Hey! My names Bobby and Im currently enrolled in the last chapter on Coursera fo
 This project analyzes the bike-share data from Cyclistic, a fictional bike-share company in Chicago. The goal of the analysis is to better understand how Cyclistic's customers are using the bikes and identify trends and patterns in their behavior within bikes, distance, and which type of bike they may be using.
 
 # Data
-The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining.
+[Click Here to download the previous 12 months of the Cyclistic trip data ](https://divvy-tripdata.s3.amazonaws.com/index.html)
+Provided by Coursera!
+The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
 
-[Click Here to download the previous 12 months](https://divvy-tripdata.s3.amazonaws.com/index.html)
+# Cleaning Data
+To sum up my results, I have found that: There are lots of errors so I decided to load the dataset into R studio for further cleaning.
+
+1. rider_id 
+This row corresponds to each rider based on their ID which also means this is the primary key. It contains exactly 16 characters,
 
 # Analysis
 
