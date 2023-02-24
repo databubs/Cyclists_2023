@@ -1,11 +1,8 @@
 # Introduction
 Hey! My names Bobby and Im currently enrolled in the last chapter on Coursera for "Google Data Analytics Professional Certificate", This is the start of my porfolio for my case studies! You can contact me at "CHIENG@LIVE.CA for any questions"
 
-
 # Prepare
-Upon extracting the files to CSV I've noticed that
-
-# Data
+Data:
 [Click Here to download the previous 12 months of the Cyclistic trip data ](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
@@ -15,7 +12,7 @@ To sum up my results, I have found that: There are lots of errors so I decided t
 
 1. rider_id ✔️ 
 This row corresponds to each rider based on their ID which also means this is the primary key. It contains exactly 16 characters no nulls or missing values could be found.
-
+3742202      14
 
 
 
