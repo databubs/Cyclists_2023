@@ -41,7 +41,7 @@ Lily Moreno
 The director of marketing and your manager. Moreno is responsible for the development of campaigns
 and initiatives to promote the bike-share program. These may include email, social media, and other channels.
 
-# My Visualization
+# Share Results
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
 
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png)
