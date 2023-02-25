@@ -7,23 +7,29 @@ Data:
 
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
 
-Loaded the 12 CSV files using RStudio and merged using the code:
-3742202 rows     14 collums
 
-
-
-# Cleaning Data
-To sum up my results, I have found that: There are lots of errors so I decided to load the dataset into R studio for further cleaning.
+# Proccess
+To sum up my results, I have found a few concerns:
 
 1. rider_id ✔️ 
 This row corresponds to each rider based on their ID which also means this is the primary key. It contains exactly 16 characters no nulls or missing values could be found. 
 
+2. rideable_type: ✔️ 
+the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio.
+
+CODE:
+
+library(dplyr)
+
+cleaned_data <- cleaned_data %>% 
+  mutate(rideable_type = ifelse(rideable_type == "docked bike", "classic bike", rideable_type))
 
 
-2.rideable_type: 
-the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. Thus, we must change any occurrence of ‘docked bike’ to ‘classic bike’.
+3. The "started_at" and "ended_at" columns ✔️ In the dataset indicate when bike trips began and ended. However, there are quite a few trips that lasted less than a minute or longer than a day. We will remove these trips while cleaning the data to ensure accuracy using the 'dplyr' tool In R Studio desktop
 
-3.
+cleaned_data <- cleaned_data %>%
+  filter(duration >= 60 & duration < 60*60*24)
+
 
 
 # Share Results
@@ -82,4 +88,7 @@ The analysis was conducted using R version 4.1.0 and the following R packages:
 tidyverse
 lubridate
 ggplot2
+
+
+
 
