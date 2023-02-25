@@ -101,5 +101,3 @@ ggplot2
 dplyr
 magrittr
 
-
- <summary>Spoiler warning</summary>
