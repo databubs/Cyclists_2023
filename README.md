@@ -96,8 +96,12 @@ Dependencies
 The analysis was conducted using R version 4.1.0 and the following R packages:
 
 tidyverse
+
 lubridate
+
 ggplot2
+
 dplyr
+
 magrittr
 
