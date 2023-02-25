@@ -17,8 +17,8 @@ This row corresponds to each rider based on their ID which also means this is th
 2. rideable_type: ✔️ 
 the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio.
 
->
-library(dplyr)
+
+>library(dplyr)
 
 cleaned_data <- cleaned_data %>% 
   mutate(rideable_type = ifelse(rideable_type == "docked bike", "classic bike", rideable_type))
@@ -87,7 +87,7 @@ The analysis was conducted using R version 4.1.0 and the following R packages:
 tidyverse
 lubridate
 ggplot2
-
+dplyr
 
 
 
