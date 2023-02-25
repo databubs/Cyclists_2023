@@ -63,9 +63,6 @@ and initiatives to promote the bike-share program. These may include email, soci
 
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Cyclists_Members.png?raw=true)
 
-# Codes via GGPLOT2 Explained
-
-
 
 
 
@@ -98,6 +95,7 @@ tidyverse
 lubridate
 ggplot2
 dplyr
+magrittr
 
 
  <summary>Spoiler warning</summary>
