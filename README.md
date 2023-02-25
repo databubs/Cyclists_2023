@@ -20,9 +20,9 @@ the data contains 3 types of bikes: classic, docked, and electric bikes; however
 
 >library(dplyr)
 
-cleaned_data <- cleaned_data %>% 
+>cleaned_data <- cleaned_data %>% 
   mutate(rideable_type = ifelse(rideable_type == "docked bike", "classic bike", rideable_type))
-/>
+
 
 3. The "started_at" and "ended_at" columns ✔️ In the dataset indicate when bike trips began and ended. However, there are quite a few trips that lasted less than a minute or longer than a day. We will remove these trips while cleaning the data to ensure accuracy using the 'dplyr' tool In R Studio desktop
 
