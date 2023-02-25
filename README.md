@@ -8,7 +8,7 @@ Data:
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
 
 
-# Proccess
+# CLeaning Proccess
 To sum up my results, I have found a few concern and how I solved them.
 
 1. rider_id ✔️ 
@@ -35,7 +35,11 @@ cleaned_data <- cleaned_data %>%
   >
   
 
-4.
+4. Clened up trailinjgTo clean up the start and end station name columns in R, you can use the trimws() function to remove leading and trailing.
+
+>cleaned_data$start_station_name <- trimws(cleaned_data$start_station_name)
+cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
+>
 
 
 # Share Results
