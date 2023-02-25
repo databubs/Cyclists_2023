@@ -30,7 +30,7 @@ cleaned_data <- cleaned_data %>%
   >
   
 
-3. Clened up trailinjgTo clean up the start and end station name columns in R, you can use the trimws() function to remove leading and trailing.
+3. Cleaned  start and end station name columns in R, you can use the trimws() function to remove leading and trailing.
 
 >cleaned_data$start_station_name <- trimws(cleaned_data$start_station_name)
 cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
