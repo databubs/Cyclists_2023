@@ -8,18 +8,13 @@ Data:
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
 
 
-# CLeaning Proccess
+# Cleaning Proccess
 To sum up my results, I have found a few concern and how I solved them.
 
-1. rider_id ✔️ 
-This row corresponds to each rider based on their ID which also means this is the primary key. It contains exactly 16 characters no nulls or missing values could be found. 
-
-2. rideable_type: ✔️ 
+1.  rideable_type: ✔️ 
 the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio.
 
 
-
-Code In R:
 
 >library(dplyr)
 
@@ -27,7 +22,7 @@ Code In R:
   mutate(rideable_type = ifelse(rideable_type == "docked bike", "classic bike", rideable_type))
 
 
-3. The "started_at" and "ended_at" columns In the dataset indicate when bike trips began and ended. However, there are quite a few trips that lasted less than a minute or longer than a day. We will remove these trips while cleaning the data to ensure accuracy using the 'dplyr' tool In R Studio desktop ✔️
+2. The "started_at" and "ended_at" columns In the dataset indicate when bike trips began and ended. However, there are quite a few trips that lasted less than a minute or longer than a day. We will remove these trips while cleaning the data to ensure accuracy using the 'dplyr' tool In R Studio desktop ✔️
 
 >
 cleaned_data <- cleaned_data %>%
@@ -35,12 +30,14 @@ cleaned_data <- cleaned_data %>%
   >
   
 
-4. Clened up trailinjgTo clean up the start and end station name columns in R, you can use the trimws() function to remove leading and trailing.
+3. Clened up trailinjgTo clean up the start and end station name columns in R, you can use the trimws() function to remove leading and trailing.
 
 >cleaned_data$start_station_name <- trimws(cleaned_data$start_station_name)
 cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
 >
 
+4.
+Replacing nulls 
 
 # Share Results
 
@@ -51,6 +48,8 @@ How many are casuals compared to annual riders?
 What are the most popular routes and destinations for Cyclistic's customers?
 
 How do the usage patterns differ by time of day, day of the week, and month?
+
+
 
 # Who Are the Stakeholders?
 Lily Moreno
@@ -101,4 +100,4 @@ ggplot2
 dplyr
 
 
-
+ <summary>Spoiler warning</summary>
