@@ -25,7 +25,7 @@ Loaded up R Studio to anaylze and clean the data
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
 
 
-# Cleaning Proccess
+# Proccess
 To sum up my results, I have found a few concern and how I solved them.
 
 1.  rideable_type:  
@@ -60,12 +60,11 @@ cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
          end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name))
 
 
-
-
 # Who Are the Stakeholders?
 Lily Moreno
 The director of marketing and your manager. Moreno is responsible for the development of campaigns
 and initiatives to promote the bike-share program. These may include email, social media, and other channels.
+
 
 # Share Results
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
