@@ -36,8 +36,12 @@ cleaned_data <- cleaned_data %>%
 cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
 >
 
-4.
-Replacing nulls 
+4. Replaced null values in the starting & ending station name 
+
+>cleaned_data <- cleaned_data %>%
+  mutate(start_station_name = if_else(is.na(start_station_name) & rideable_type == "electric_bike", "On Bike Lock", start_station_name),
+         end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name))
+
 
 # Share Results
 
