@@ -1,7 +1,19 @@
 # Introduction
 Hey! My names Bobby and Im currently enrolled in the last chapter on Coursera for "Google Data Analytics Professional Certificate", This is the start of my porfolio on Cyclistic Case Study You can contact me at "CHIENG@LIVE.CA for any questions"
 
+# Ask
+
+The analysis was conducted in R and includes data cleaning, exploration, and visualization. The following questions were addressed in the analysis:
+
+How many are casuals compared to annual riders?
+
+What are the most popular routes and destinations for Cyclistic's customers?
+
+How do the usage patterns differ by time of day, day of the week, and month?
+
+
 # Prepare
+
 Data:
 [Click Here to download the previous 12 months of the Cyclistic trip data ](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
@@ -47,16 +59,6 @@ cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
   mutate(start_station_name = if_else(is.na(start_station_name) & rideable_type == "electric_bike", "On Bike Lock", start_station_name),
          end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name))
 
-
-# Share Results
-
-The analysis was conducted in R and includes data cleaning, exploration, and visualization. The following questions were addressed in the analysis:
-
-How many are casuals compared to annual riders?
-
-What are the most popular routes and destinations for Cyclistic's customers?
-
-How do the usage patterns differ by time of day, day of the week, and month?
 
 
 
