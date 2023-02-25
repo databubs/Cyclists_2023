@@ -16,7 +16,7 @@ The data used for this analysis was provided by Cyclistic and consists of trip r
 # Cleaning Proccess
 To sum up my results, I have found a few concern and how I solved them.
 
-1.  rideable_type: ✔ 
+1.  rideable_type:  
 the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio. ✔️
 
 
