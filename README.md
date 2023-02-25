@@ -1,5 +1,5 @@
 # Introduction
-Hey! My names Bobby and Im currently enrolled in the last chapter on Coursera for "Google Data Analytics Professional Certificate", This is the start of my porfolio for my case studies! You can contact me at "CHIENG@LIVE.CA for any questions"
+Hey! My names Bobby and Im currently enrolled in the last chapter on Coursera for "Google Data Analytics Professional Certificate", This is the start of my porfolio on Cyclistic Case Study You can contact me at "CHIENG@LIVE.CA for any questions"
 
 # Prepare
 Data:
