@@ -37,7 +37,7 @@ the data contains 3 types of bikes: classic, docked, and electric bikes; however
 
 2. The "started_at" and "ended_at" columns In the dataset indicate when bike trips began and ended. However, there are quite a few trips that lasted less than a minute or longer than a day. We will remove these trips while cleaning the data to ensure accuracy using the 'dplyr' tool In R Studio desktop ✔️
   
- <summary>View R Code</summary>details><summary>View R code</summary>cleaned_data <- cleaned_data %>%
+ <details><summary>View R Code</summary>details><summary>View R code</summary>cleaned_data <- cleaned_data %>%
   filter(duration >= 60 & duration < 60*60*24)</details</details>
 
     
