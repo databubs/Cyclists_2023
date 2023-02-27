@@ -28,6 +28,16 @@ The data used for this analysis was provided by Cyclistic and consists of trip r
 # Proccess
 To sum up my results, I have found a few concern and how I solved them.
 
+3. Cleaned start and end station name columns in R, you can use the `trimws()` function to remove leading and trailing spaces.
+
+<details>
+  <summary>View R Code</summary>
+  
+  ```R
+  cleaned_data$start_station_name <- trimws(cleaned_data$start_station_name)
+  cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
+
+
 1.  rideable_type:  
 the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio. ✔️
 
@@ -110,12 +120,3 @@ dplyr
 magrittr
 
       
-      3. Cleaned start and end station name columns in R, you can use the `trimws()` function to remove leading and trailing spaces.
-
-<details>
-  <summary>View R Code</summary>
-  
-  ```R
-  cleaned_data$start_station_name <- trimws(cleaned_data$start_station_name)
-  cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
-
