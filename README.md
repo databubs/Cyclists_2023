@@ -28,19 +28,8 @@ The data used for this analysis was provided by Cyclistic and consists of trip r
 # Proccess
 To sum up my results, I have found a few concern and how I solved them.
 
-3. Cleaned start and end station name columns in R, you can use the `trimws()` function to remove leading and trailing spaces.
-
-<details>
-  <summary>View R Code</summary>
-  
-  ```R
-  cleaned_data$start_station_name <- trimws(cleaned_data$start_station_name)
-  cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)
-
-
 1.  rideable_type:  
 the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio. ✔️
-
 
 <details><summary>View R Code</summary>cleaned_data <- cleaned_data %>% 
   mutate(rideable_type = ifelse(rideable_type == "docked bike", "classic bike", rideable_type))</details>
@@ -51,9 +40,7 @@ the data contains 3 types of bikes: classic, docked, and electric bikes; however
   <details><summary>View R Code</summary>details><summary>View R code</summary>cleaned_data <- cleaned_data %>%
   filter(duration >= 60 & duration < 60*60*24)</details</details>
 
- 
-  
-
+    
 3. Cleaned  start and end station name columns in R, you can use the trimws() function to remove leading and trailing ✔️
 
     <details><summary>View R  Code</summary>cleaned_data$start_station_name <- trimws(cleaned_data$start_station_name)
@@ -64,8 +51,7 @@ cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)</details>
 
     <details><summary>View R Code</summary>cleaned_data <- cleaned_data %>%
   mutate(start_station_name = if_else(is.na(start_station_name) & rideable_type == "electric_bike", "On Bike Lock", start_station_name),
-         end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name))
-</details>
+         end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name))</details>
 
 
 # Who Are the Stakeholders?
