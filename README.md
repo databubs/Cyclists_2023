@@ -32,7 +32,8 @@ To sum up my results, I have found a few concern and how I solved them.
 the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio. ✔️
 
 
-
+<details><summary>View R Code</summary>cleaned_data <- cleaned_data %>% 
+  mutate(rideable_type = ifelse(rideable_type == "docked bike", "classic bike", rideable_type))</details>
 >library(dplyr)
 
 >cleaned_data <- cleaned_data %>% 
