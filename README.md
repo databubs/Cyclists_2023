@@ -54,8 +54,7 @@ cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)</details>
 
     <details><summary>View R Code</summary>cleaned_data <- cleaned_data %>%
   mutate(start_station_name = if_else(is.na(start_station_name) & rideable_type == "electric_bike", "On Bike Lock", start_station_name),
-         end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name))
-</details>
+         end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name))</details>
 
 
 # Who Are the Stakeholders?
