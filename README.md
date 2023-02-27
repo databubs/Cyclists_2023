@@ -40,6 +40,8 @@ the data contains 3 types of bikes: classic, docked, and electric bikes; however
   
   <details><summary>View R Code</summary>details><summary>View R code</summary>cleaned_data <- cleaned_data %>%
   filter(duration >= 60 & duration < 60*60*24)</details</details>
+    
+    
 
 
 3. Cleaned  start and end station name columns in R, you can use the trimws() function to remove leading and trailing ✔️
@@ -48,6 +50,8 @@ the data contains 3 types of bikes: classic, docked, and electric bikes; however
 cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)</details>
     
 
+    
+    
 4. Replaced null values in the starting & ending station name ✔️
 
     <details><summary>View R Code</summary>cleaned_data <- cleaned_data %>% mutate(start_station_name = if_else(is.na(start_station_name) & rideable_type == "electric_bike", "On Bike Lock", start_station_name),
