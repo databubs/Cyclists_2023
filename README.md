@@ -31,7 +31,14 @@ To sum up my results, I have found a few concern and how I solved them.
 1.  rideable_type:  
 the data contains 3 types of bikes: classic, docked, and electric bikes; however, as specified by the data collection team, ‘docked bike’ is the old name for ‘classic bike’. So we must change any occurrence of ‘docked bike’ to ‘classic bike’ in R Studio. ✔️
 
-<details><summary>View R Code</summary> </details>
+<details><summary>View R Code</summary>cleaned_data <- cleaned_data %>% 
+  mutate(rideable_type = ifelse(rideable_type == "docked bike", "classic bike", rideable_type))</details>
+
+
+2. The "started_at" and "ended_at" columns In the dataset indicate when bike trips began and ended. However, there are quite a few trips that lasted less than a minute or longer than a day. We will remove these trips while cleaning the data to ensure accuracy using the 'dplyr' tool In R Studio desktop ✔️
+  
+<details><summary>View R Code</summary>details><summary>View R code</summary>cleaned_data <- cleaned_data %>%
+  filter(duration >= 60 & duration < 60*60*24)</details</details>
 
 
 2. The "started_at" and "ended_at" columns In the dataset indicate when bike trips began and ended. However, there are quite a few trips that lasted less than a minute or longer than a day. We will remove these trips while cleaning the data to ensure accuracy using the 'dplyr' tool In R Studio desktop ✔️
