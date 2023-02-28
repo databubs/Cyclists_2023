@@ -52,8 +52,7 @@ cleaned_data$end_station_name <- trimws(cleaned_data$end_station_name)</details>
     <details><summary>View R Code</summary>cleaned_data <- cleaned_data %>% mutate(start_station_name = if_else(is.na(start_station_name) & rideable_type == "electric_bike", "On Bike Lock", start_station_name),end_station_name = if_else(is.na(end_station_name) & rideable_type == "electric_bike", "On Bike Lock", end_station_name</details>
       
 5. Trips that included bike maintenance station names were removed from the data.
-      <details><summary>View R Code</summary/>cleaned_data <- cleaned_data %>%
-  filter(!grepl("bike maintenance", start_station_name, ignore.case = TRUE) & 
+      <details><summary>View R Code</summary/>cleaned_data <- cleaned_data %>% filter(!grepl("bike maintenance", start_station_name, ignore.case = TRUE) & 
         !grepl("bike maintenance", end_station_name, ignore.case = TRUE))</details>
 
 
