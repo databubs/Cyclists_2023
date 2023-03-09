@@ -25,7 +25,7 @@ Loaded up R Studio to anaylze and clean the data
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
 
 
-# Proccess
+# Proccess/Cleaning
 To sum up my results, I have found a few concern and how I solved them.
 
 1.  rideable_type:  
