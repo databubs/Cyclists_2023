@@ -17,15 +17,14 @@ How do the usage patterns differ by time of day, day of the week, and month?
 Data:
 [Click Here to download the previous 12 months of the Cyclistic trip data ](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-Download the first 12 months 
+Downloaded the first 12 months 
 Renamed the CSV files to 1 to 12(1.csv,2.csv,3.csv, and so forth
 Loaded up R Studio to anaylze and clean the data
 
+The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio desktop.
 
-The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio.
 
-
-# Proccess/Cleaning
+# Proccess/Cleaning Using R Studio Desktop
 To sum up my results, I have found a few concern and how I solved them.
 
 1.  rideable_type:  
@@ -108,12 +107,3 @@ dplyr
 magrittr
 
       
-     
-<details open>
-<summary>Shopping list</summary>
-
-* Vegetables
-* Fruits
-* Fish
-
-</details>
