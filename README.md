@@ -19,7 +19,8 @@ Data:
 
 Downloaded the first 12 months 
 Renamed the CSV files to 1 to 12(1.csv,2.csv,3.csv, and so forth
-Loaded up R Studio to anaylze and clean the data
+Merged 1.csv to 12.csv by using 
+
 
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio desktop.
 
