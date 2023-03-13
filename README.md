@@ -62,7 +62,7 @@ The director of marketing and your manager. Moreno is responsible for the develo
 and initiatives to promote the bike-share program. These may include email, social media, and other channels.
 
 
-# Share Results
+# Share Results + Questions Answered
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Days%20Of%20Riders.png)
 
 ![alt text](https://github.com/databubs/Cyclists_2023/blob/main/Percentage_Of_Rides_By_Member%20type.png)
@@ -88,7 +88,7 @@ cyclistic_analysis.Rmd: R Markdown file containing the code and analysis.
 
 cyclistic_analysis.html: HTML file containing the knitted R Markdown report.
 
-data/2020_cyclistic_tripdata.csv: Raw data used for the analysis.
+data/merged_data.csv: Raw data used for the analysis.
 
 data/cyclistic_cleaned_data.csv: Cleaned data used for the analysis.
 Dependencies
@@ -107,4 +107,7 @@ dplyr
 
 magrittr
 
+# My Suggestion
+     
+My suggestion would be to add
       
