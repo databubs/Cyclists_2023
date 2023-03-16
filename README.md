@@ -17,9 +17,10 @@ How do the usage patterns differ by time of day, day of the week, and month?
 Data:
 [Click Here to download the previous 12 months of the Cyclistic trip data ](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-Downloaded the first 12 months 
+Downloaded the first 12 months and extracted to a directory
 Renamed the CSV files to 1 to 12(1.csv,2.csv,3.csv, and so forth
-Merged 1.csv to 12.csv by using 
+Edited 1:12.csv and added ride_length and day_of_week
+Merged 1:12.csv by using "setwd" in R Studio Desktop for the directory of the .csv files to get merged_csv
 
 
 The data used for this analysis was provided by Cyclistic and consists of trip records from Google Data Analytics Professional Certificate course. The data was preprocessed to remove any missing values and ensure consistency in formatting. Filling missing values, removed duplicates, and reformatting;alining using R stuidio desktop.
