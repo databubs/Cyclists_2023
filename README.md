@@ -19,8 +19,8 @@ Data:
 
 1. Downloaded the first 12 months and extracted to a directory ✔️
 2. Renamed the CSV files to 1 to 12(1.csv,2.csv,3.csv, and so forth ✔️
-3. Edited 1:12.csv and added ride_length and day_of_week ✔️
-4. Merged 1:12.csv by using "setwd" in R Studio Desktop for the directory of the .csv files to get merged_csv ✔️
+3. Added ride_length and day_of_week ✔️
+4. Merged 1:12.csv using R Studio SetWD ✔️
 
 
 
