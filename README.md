@@ -17,10 +17,10 @@ How do the usage patterns differ by time of day, day of the week, and month?
 Data:
 [Click Here to download the previous 12 months of the Cyclistic trip data ](https://divvy-tripdata.s3.amazonaws.com/index.html)
 
-1. Downloaded the first 12 months and extracted to a directory ✔️
-2. Renamed the CSV files to 1 to 12(1.csv,2.csv,3.csv, and so forth ✔️
+1. Downloaded 4 quarters to represent months and extracted to a directory ✔️
+2. Renamed the CSV files Q1_2019, Q2_2019,Q3_2019
 3. Added ride_length and day_of_week ✔️
-4. Merged 1:12.csv using R Studio SetWD ✔️
+4. Combine files .csv using R Studio SetWD ✔️
 
 
 
