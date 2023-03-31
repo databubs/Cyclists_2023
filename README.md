@@ -21,7 +21,7 @@ Data:
 2. Renamed the CSV files Q1_2019, Q2_2019,Q3_2019
 3. Added ride_length and day_of_week ✔️
 4. Combine files .csv using R Studio SetWD ✔️
-
+5. Rename Q1:Q4_2020 collums to allign for merge ✔️
 
 
 # Proccess/Cleaning Using R Studio Desktop
@@ -110,5 +110,5 @@ magrittr
 
 # My Suggestion
      
-My suggestion would be to add
+My suggestion to the stakeholder would be to add a 
       
